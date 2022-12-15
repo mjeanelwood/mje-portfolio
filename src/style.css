@@ -36,3 +36,28 @@
   padding: 10px 20px;
   margin-bottom: 35px;
 }
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  line-height: 42px;
+  display: inline;
+  list-style: none;
+  margin-left: 10px;
+}
+
+nav a {
+  color: var(--primary-color);
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover {
+  color: white;
+}
+
+nav li.active a {
+  color: white;
+}
