@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #d169a5;
+  --secondary-color: #767676;
+  --primary-font-family: "Noto Serif", serif;
+  --secondary-font-family: "Roboto", sans-serif;
+}
+
 .hero {
   background-color: black;
   text-align: center;
