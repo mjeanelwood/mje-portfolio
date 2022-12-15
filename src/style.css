@@ -1,1 +1,38 @@
+.hero {
+  background-color: black;
+  text-align: center;
+  padding: 40px 0 160px;
+}
 
+.hero h2 {
+  font-size: 46px;
+}
+.hero h1 {
+  font-size: 95px;
+  color: #d169a5;
+}
+
+.paragraph-primary {
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+.paragraph-secondary {
+  color: white;
+  font-size: 20px;
+}
+.paragraph-secondary a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #d169a5;
+}
+
+.btn-branding {
+  background-color: #d169a5;
+  color: white;
+  font-family: var(--primary-font-family);
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-bottom: 35px;
+}
